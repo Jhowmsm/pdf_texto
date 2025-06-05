@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "googleapis": "^149.0.0",
+    "pdf.js-extract": "^0.2.1"
+  }
+}

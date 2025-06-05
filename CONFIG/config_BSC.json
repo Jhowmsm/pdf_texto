@@ -1,0 +1,12 @@
+{
+  "keywords": {
+     "sector": {
+      "cells": ["B80"],
+      "mode": "between_phrases",
+      "start_phrase": "Your business sectors",
+      "end_phrase": "%"
+    }
+ },
+  "sheet_name": "pdf_to_sheet",
+  "worksheet_name": "Extracto"
+}

@@ -1,0 +1,16 @@
+{
+  "keywords": {
+    "Total Activo": {
+      "cells": ["B2"],
+      "mode": "until_dot"
+    },
+    "Total Pasivo": {
+      "cells": ["B3"],
+      "mode": "until_dot"
+    }
+    
+  },
+  "sheet_name": "MiHoja",
+  "worksheet_name": "Hoja1",
+  "spreadsheet_id": "TU_ID_DE_HOJA_DE_CALCULO"
+}

@@ -1,0 +1,44 @@
+{
+  "keywords": {
+    "TOTAL ACTIVO": {
+      "cells": ["B57", "B64"],
+      "mode": "two_numbers_after"
+    },
+    "PATRIMONIO": {
+      "cells": ["B58", "B65"],
+      "mode": "two_numbers_after"
+    },
+    "Ventas": {
+      "cells": ["B61", "B68"],
+      "mode": "two_numbers_after"
+    },
+    "RESULTADO DEL EJERCICIO": {
+      "cells": ["B59", "B66"],
+      "mode": "two_numbers_after"
+    },
+     "Fondos propios": {
+      "cells": ["B63", "B70"],
+      "mode": "two_numbers_after"
+    },
+    "14.1": {
+      "cells": ["B60", "B67"],
+      "mode": "two_numbers_after"
+    },
+    "Auditoría:": {
+      "cells": ["D19"],
+      "mode": "until_dot"
+    },
+    "Balance al 31 de diciembre de": {
+      "cells": ["B56"],
+      "mode": "until_newline"
+    },
+     "Información clave entre frases": {
+      "cells": ["B55"],
+      "mode": "between_phrases",
+      "start_phrase": "Opinión",
+      "end_phrase": "Fundamento de la opinión"
+    }
+  },
+  "sheet_name": "pdf_to_sheet",
+  "worksheet_name": "Extracto"
+}

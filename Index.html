@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Extractor de PDFs</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Sube tus documentos PDF</h1>
+  <div class="container">
+    <div class="drop-zone" id="box1">
+      <p>Selecciona el PDF de Balance</p>
+      <input type="file" accept=".pdf" id="input1" />
+      <span id="fileName1"></span>
+    </div>
+    <div class="drop-zone" id="box2">
+      <p>Selecciona el PDF de Pérdidas y Ganancias</p>
+      <input type="file" accept=".pdf" id="input2" />
+      <span id="fileName2"></span>
+    </div>
+    <div class="drop-zone" id="box3">
+      <p>Selecciona el PDF de Flujo de Efectivo</p>
+      <input type="file" accept=".pdf" id="input3" />
+      <span id="fileName3"></span>
+    </div>
+    <div class="drop-zone" id="box4">
+      <p>Selecciona el PDF de Notas</p>
+      <input type="file" accept=".pdf" id="input4" />
+      <span id="fileName4"></span>
+    </div>
+    <div class="drop-zone" id="box5">
+      <p>Selecciona el PDF de Otros</p>
+      <input type="file" accept=".pdf" id="input5" />
+      <span id="fileName5"></span>
+    </div>
+  </div>
+  <button id="extract-btn">Extraer</button>
+
+  <script>
+    // Mostrar el nombre del archivo seleccionado en cada caja
+    for (let i = 1; i <= 5; i++) {
+      document.getElementById('input' + i).addEventListener('change', function(e) {
+        const fileName = e.target.files.length ? e.target.files[0].name : '';
+        document.getElementById('fileName' + i).textContent = fileName;
+      });
+    }
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

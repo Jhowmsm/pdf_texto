@@ -1,0 +1,62 @@
+{
+  "keywords": {
+      "Objeto social": {
+      "cells": ["B6"],
+      "mode": "between_phrases",
+      "start_phrase": "Denominación:",
+      "end_phrase": "Página web"
+    },
+     "Inicio operaciones": {
+      "cells": ["B7"],
+      "mode": "between_phrases",
+      "start_phrase": "Inicio de operaciones:",
+      "end_phrase": "Domicilio social:"
+    },
+    "Registro Mercantil de": {
+      "cells": ["B5"],
+      "mode": "until_newline"
+    },
+     "Expedido": {
+      "cells": ["B8"],
+      "mode": "between_phrases",
+      "start_phrase": "Expedida el día:",
+      "end_phrase": "a"
+    },
+     "Domicilio": {
+      "cells": ["B9"],
+      "mode": "between_phrases",
+      "start_phrase": "Domicilio social:",
+      "end_phrase": "Duración:"
+    },
+     "NIE": {
+      "cells": ["B11"],
+      "mode": "between_phrases",
+      "start_phrase": "Objeto social:",
+      "end_phrase": "C.N.A.E."
+    },
+     "C.N.A.E.:": {
+      "cells": ["B12"],
+      "mode": "between_phrases",
+      "start_phrase": "C.N.A.E.:",
+      "end_phrase": "Estructura del órgano"
+    },
+     "ESTRUCT. ORGANO": {
+      "cells": ["B13"],
+      "mode": "between_phrases",
+      "start_phrase": "Estructura del órgano:",
+      "end_phrase": "Último"
+    },
+     "ESIT. ESPECIAL": {
+      "cells": ["B15"],
+      "mode": "between_phrases",
+      "start_phrase": "Situaciones especiales",
+      "end_phrase": "Administradores"
+    }
+    
+
+  },
+  "sheet_name": "pdf_to_sheet",
+  "worksheet_name": "Extracto"
+}
+
+
